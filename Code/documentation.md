@@ -143,7 +143,8 @@ npm install
 
 2. Start the JSON server:
 ```bash
-json-server --watch db.json --port 3000
+cd db
+json-server --watch db.json 
 ```
 
 3. Start the development server:
